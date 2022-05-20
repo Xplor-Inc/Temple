@@ -1,0 +1,12 @@
+﻿@inject IConfiguration config;
+<footer class="text-center container box-container" style="border-radius: 0px; padding: 10px;">
+    <div>
+        Created with &nbsp;<a href="https://dotnet.microsoft.com/en-us/" target="_blank" rel="noreferrer">
+            @System.Runtime.InteropServices.RuntimeInformation.FrameworkDescription</a>
+        
+        <span> | </span>
+        ©  @DateTime.Now.Year 
+        <span> | </span>
+        Version @config.GetSection("Version").Value
+    </div>
+</footer>

@@ -1,0 +1,38 @@
+﻿.nav-item {
+    font-size: 1.25rem;
+}
+
+.active {
+    border-bottom: 2px solid #c30f62;
+    border-image: linear-gradient(to left, rgb(129, 1, 159), rgb(90, 56, 175), rgb(2, 203, 171)) 1 stretch repeat;
+}
+  
+.dropdown-item.active, .dropdown-item:active {
+    color: initial;
+    background-color: initial;
+}
+
+@media (max-width: 992px) {
+    /*.nav-item {
+        padding: 5px 1rem;
+        font-size: 1.25rem;
+    }*/
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+.navbar-brand img {
+    height: 25px;
+    border-radius: 50%;
+}
+nav {
+    z-index: 99;
+}
+
+.nav-link {
+    display: initial;
+    padding: 0rem .75rem !important;
+}
